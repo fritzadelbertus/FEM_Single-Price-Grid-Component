@@ -1,0 +1,29 @@
+@import './SinglePriceGrid.scss';
+
+// ### Primary
+
+// - Cyan: hsl(179, 62%, 43%)
+// - Bright Yellow: hsl(71, 73%, 54%)
+
+// ### Neutral
+
+// - Light Gray: hsl(204, 43%, 93%)
+// - Grayish Blue: 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFEDE7;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
